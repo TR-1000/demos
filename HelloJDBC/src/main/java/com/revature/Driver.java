@@ -11,8 +11,8 @@ public class Driver {
 	public static void main(String[] args) {
 		CelebrityDAO dao = CelebrityDAOImpl.getInstance();
 
-		//Celebrity celeb = new Celebrity("Elaine", "Paige", "Grizzabella", "female"); 
-		//dao.insertStatement(celeb);
+		Celebrity celeb = new Celebrity("Elaine", "Paige", "Grizzabella", "female"); 
+		dao.insertStatement(celeb);
 
 //		Celebrity c = dao.findByFirstName("Tony");
 //		System.out.println(c);
